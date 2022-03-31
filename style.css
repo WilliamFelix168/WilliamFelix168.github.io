@@ -48,3 +48,42 @@ section{
   .language{
     font-size: 12px;
   }
+
+  .post {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    background-color: #fff;
+    cursor: pointer;
+ }
+  .post:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #343a40;
+    transform-origin: 0 bottom 0;
+    transform: scaleY(0);
+    transition: 0.4s ease-out;
+ }
+  .post:hover .post-title {
+    color: #fff;
+ }
+
+ .btn-primary:hover {
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+}
+    
+
+  .post:hover:before {
+    transform: scaleY(1);
+ }
+  .post-title {
+    position: relative;
+    transition: 0.4s ease-out;
+ }
+  

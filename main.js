@@ -6,7 +6,6 @@ async function getGithubRepo() {
 }
 
 function updateUI(card) {
-  console.log(card);
   let cards = "";
   card.forEach((element) => {
     cards += showCards(element);
@@ -18,16 +17,16 @@ function updateUI(card) {
 
 function showCards(card) {
   return `<div class="col-md-3 mb-2">
-              <div class="card bg-secondary text-white">
-                <div class="card-header text-center">
+              <div class="card post">
+                <div class="card-header text text-center post-title">
                   ${card.name} (${card.language})
                   <p class="language m-0 text-end mt-2">Updated : ${formatDate(card.updated_at)}</p>
                 </div>
                 <div class="card-body">
-                  <p class="card-text">${
+                  <p class="card-text post-title">${
                     card.description ? card.description : "No description"
                   }</p>
-                  <div class="text-center mb-2">
+                  <div class="text-center post-title mb-2">
                     <a href="${card.html_url}" class="btn btn-primary">Detail</a>
                   </div>
                 </div>
