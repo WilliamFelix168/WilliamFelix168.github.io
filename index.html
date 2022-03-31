@@ -18,7 +18,7 @@
   <title>My Portfolio | William Felix</title>
 </head>
 
-<body id="Home">
+<body id="Home" onload="getGithubRepo()">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
     <div class="container">
@@ -58,7 +58,8 @@
     <span>#NeverStopLearning</span>
     <p class="lead">Junior Web Developer</p>
     <div class="d-flex justify-content-center">
-      <a href="https://github.com/WilliamFelix168"><img src="img/github1.svg" alt="" width="40" height="40" class="mx-1"></a>
+      <a href="https://github.com/WilliamFelix168"><img src="img/github1.svg" alt="" width="40" height="40"
+          class="mx-1"></a>
       <a href="https://www.instagram.com/william.felix168/"><img src="img/instagram.svg" alt="" width="40" height="40"
           class="mx-1"></a>
       <a href="https://www.linkedin.com/in/william-felix-733130178/"><img src="img/linkedin.svg" alt="" width="40"
@@ -235,17 +236,9 @@
           <h2>Github Repositories</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-              <h5 class="card-title">Interviews</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-                <button type="button" class="btn btn-primary">Primary</button>
-            </div>
-          </div>
-        </div>
+      <div class="row repo-container">
       </div>
+    </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#0d6efd" fill-opacity="1"
@@ -274,7 +267,7 @@
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+    </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--

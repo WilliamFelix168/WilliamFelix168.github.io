@@ -44,3 +44,7 @@ section{
     width: 11px;
     content: "";
   }
+
+  .language{
+    font-size: 12px;
+  }
