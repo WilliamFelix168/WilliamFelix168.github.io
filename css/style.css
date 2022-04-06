@@ -1,10 +1,6 @@
 .jumbotron{
     padding-top: 6rem;
-    background-image: url('../img/background.jpg');
-    padding-bottom: 6rem;
-    height: 600px;
-    background-position: center bottom;
-    opacity: 1.5;
+    background-color: #e2edff;
 }
 
 #license{
