@@ -1,6 +1,10 @@
 .jumbotron{
     padding-top: 6rem;
-    background-color: #e2edff;
+    background-image: url('../img/background.jpg');
+    padding-bottom: 6rem;
+    height: 600px;
+    background-position: center bottom;
+    opacity: 1.5;
 }
 
 #license{
@@ -86,4 +90,27 @@ section{
     position: relative;
     transition: 0.4s ease-out;
  }
-  
+
+ .animate__animated.animate__fadeInDown {
+  --animate-delay: 0.5s !important;
+}
+
+.animate__animated.animate__fadeInUp {
+  --animate-delay: 0.2s !important;
+}
+
+.hvr-grow-1{
+  display:inline-block;
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px rgba(0,0,0,0);
+  -webkit-transition-duration:.3s;
+  transition-duration:.3s;
+  -webkit-transition-property:transform;
+  transition-property:transform
+}
+.hvr-grow-1:active,.hvr-grow-1:focus,.hvr-grow-1:hover{
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1)
+}

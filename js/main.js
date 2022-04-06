@@ -17,7 +17,7 @@ function updateUI(card) {
 
 function showCards(card) {
   return `<div class="col-md-3 mb-2">
-              <div class="card post">
+              <div class="card post animate__animated animate__zoomIn">
                 <div class="card-header text text-center post-title">
                   ${card.name} (${card.language})
                   <p class="language m-0 text-end mt-2">Updated : ${formatDate(card.updated_at)}</p>
