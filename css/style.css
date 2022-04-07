@@ -67,7 +67,7 @@ section{
     height: 100%;
     border-radius: 15px;
     background-color: #22272E;
-    transform-origin: 0 center 0;
+    transform-origin: 0 bottom 0;
     transform: scaleY(0);
     transition: 0.4s ease-out;
  }

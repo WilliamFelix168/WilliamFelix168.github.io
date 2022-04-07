@@ -17,12 +17,12 @@ function updateUI(card) {
 
 function showCards(card) {
   return `<div class="col-md-3 mb-2">
-              <div class="card post animate__animated animate__zoomIn">
-                <div class="text text-center post-title px-2 py-2">
-                  <p class="fw-bold">${card.name} (${card.language})</p>
-                  <p class="language m-0 text-end mt-2">Updated : ${formatDate(card.updated_at)}</p>
-                </div>
-                <div class="card-body">
+              <div class="card post animate__animated animate__zoomIn my-2">
+              <div class="card-body">
+                  <div class="text text-center post-title">
+                    <p class="fw-bold">${card.name} (${card.language})</p>
+                  </div>
+                  <p class="language m-0 post-title">Updated : ${formatDate(card.updated_at)}</p>
                   <p class="card-text post-title">${
                     card.description ? card.description : "No Description"
                   }</p>
