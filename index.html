@@ -15,6 +15,7 @@
 
   <script src="https://kit.fontawesome.com/6f68ec3c54.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="css/hover-min.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/favicon.ico" />
 
@@ -33,7 +34,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto animate__animated animate__backInRight">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#Home">Home</a>
           </li>
@@ -89,7 +90,7 @@
   <section id="aboutMe">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 animate__animated animate__fadeInLeft mb-2">
+        <div class="col-md-4 mb-2" data-aos="fade-right" data-aos-offset="500" data-aos-duration="800">
           <div class="row">
             <div class="col-md-12">
               <div class="card">
@@ -119,9 +120,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8" data-aos="fade-left" data-aos-offset="500" data-aos-delay="200" data-aos-duration="800">
           <!-- Section: Timeline -->
-          <div class="animate__animated animate__fadeInRight">
+          <div>
             <h3 class="card-title text-center mb-3">Experiences</h3>
             <ul class="timeline">
               <li class="timeline-item mb-5">
@@ -158,7 +159,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 mb-3 animate__animated animate__slideInLeft">
+        <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="500">
           <div class="card hvr-grow-1">
             <a href="img/certificate-pdf/1.pdf" target="blank" class="text-decoration-none">
               <img src="img/certificate/1.avif" class="card-img-top" alt="..." />
@@ -170,7 +171,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 mb-3 animate__animated animate__slideInDown">
+        <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-offset="500" data-aos-delay="200" data-aos-duration="500">
           <div class="card hvr-grow-1">
             <a href="img/certificate-pdf/2.pdf" target="blank" class="text-decoration-none">
               <img src="img/certificate/2.avif" class="card-img-top" alt="..." />
@@ -182,7 +183,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 mb-3 animate__animated animate__slideInRight">
+        <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-offset="500" data-aos-delay="400" data-aos-duration="500">
           <div class="card hvr-grow-1">
             <a href="img/certificate-pdf/3.pdf" target="blank" class="text-decoration-none">
               <img src="img/certificate/3.avif" class="card-img-top images" alt="..." />
@@ -196,7 +197,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 mb-3 animate__animated animate__slideInLeft">
+        <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="600" data-aos-duration="500">
           <div class="card hvr-grow-1">
             <a href="img/certificate-pdf/4.pdf" target="blank" class="text-decoration-none">
               <img src="img/certificate/4.avif" class="card-img-top" alt="..." />
@@ -208,7 +209,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 mb-3 animate__animated animate__slideInUp">
+        <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="800" data-aos-duration="500">
           <div class="card hvr-grow-1">
             <a href="img/certificate-pdf/5.pdf" target="blank" class="text-decoration-none">
               <img src="img/certificate/5.avif" class="card-img-top" alt="..." />
@@ -220,7 +221,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 mb-3 animate__animated animate__slideInRight">
+        <div class="col-md-4 mb-3" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="500">
           <div class="card hvr-grow-1">
             <a href="img/certificate-pdf/6.pdf" target="blank" class="text-decoration-none">
               <img src="img/certificate/6.avif" class="card-img-top images" alt="..." />
@@ -274,6 +275,13 @@
       </a>
     </p>
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
 
   <!-- jquery cdn  -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"

@@ -17,7 +17,7 @@ function updateUI(card) {
 
 function showCards(card) {
   return `<div class="col-md-3 mb-2">
-              <div class="card post animate__animated animate__zoomIn my-2">
+              <div class="card post my-2" data-aos="flip-up" data-aos-offset="200" data-aos-delay="200" data-aos-duration="800">
               <div class="card-body">
                   <div class="text text-center post-title">
                     <p class="fw-bold">${card.name} (${card.language})</p>
