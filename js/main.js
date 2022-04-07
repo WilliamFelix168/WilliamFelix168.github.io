@@ -18,13 +18,13 @@ function updateUI(card) {
 function showCards(card) {
   return `<div class="col-md-3 mb-2">
               <div class="card post animate__animated animate__zoomIn">
-                <div class="card-header text text-center post-title">
-                  ${card.name} (${card.language})
+                <div class="text text-center post-title px-2 py-2">
+                  <p class="fw-bold">${card.name} (${card.language})</p>
                   <p class="language m-0 text-end mt-2">Updated : ${formatDate(card.updated_at)}</p>
                 </div>
                 <div class="card-body">
                   <p class="card-text post-title">${
-                    card.description ? card.description : "No description"
+                    card.description ? card.description : "No Description"
                   }</p>
                   <div class="text-center post-title mb-2">
                     <a href="${card.html_url}" class="btn btn-primary" target="blank">Detail</a>
@@ -33,7 +33,6 @@ function showCards(card) {
               </div>
             </div>`;
 }
-
 
 function formatDate(date){
   const months = [
