@@ -26,7 +26,8 @@ function showCards(card) {
                   <p class="card-text post-title">${
                     card.description ? card.description : "No Description"
                   }</p>
-                  <div class="text-center post-title mb-2">
+                 
+                  <div class="d-grid gap-2 post-title mb-2">
                     <a href="${card.html_url}" class="btn btn-primary" target="blank">Detail</a>
                   </div>
                 </div>
