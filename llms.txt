@@ -1,0 +1,28 @@
+# William Felix
+
+> Personal portfolio of William Felix — web developer and business system analyst in Medan, Indonesia. Six years of experience building and maintaining business-critical HR & payroll systems with PHP/Laravel, ASP.NET (C#), and Oracle/SQL Server databases.
+
+Key facts:
+
+- Current role: TD HR Associate Analyst at PT Wilmar Consultancy Services (Jun 2022 – present), developing and maintaining an HR/payroll platform used by companies across Indonesia
+- Previous role: Web Developer & Business Analyst at PT Pundi Mas Berjaya (Sep 2020 – Jun 2022), building full-stack PHP/Laravel applications
+- Education: Bachelor of Informatics Engineering, Universitas Mikroskil Medan (2018–2022), GPA 3.92/4.00
+- Skills: PHP (Laravel), ASP.NET (C#), JavaScript, Golang, Oracle, SQL Server, MySQL, Git
+- Languages: Indonesian (native), English (professional working proficiency)
+- Contact: william.felix059@gmail.com
+
+## Profile
+
+- [Portfolio home](https://williamfelix.my.id/): single-page portfolio with skills, experience, certifications, and live GitHub repositories
+- [CV (PDF)](https://williamfelix.my.id/files/William_Felix_CV.pdf): full curriculum vitae
+- [GitHub](https://github.com/WilliamFelix168): public repositories
+- [LinkedIn](https://www.linkedin.com/in/william-felix-733130178/): professional profile
+
+## Certifications
+
+- [Belajar Dasar Pemrograman Web — Dicoding](https://williamfelix.my.id/img/certificate-pdf/1.pdf)
+- [Belajar Dasar Pemrograman JavaScript — Dicoding](https://williamfelix.my.id/img/certificate-pdf/2.pdf)
+- [Belajar Membuat Aplikasi Back-End untuk Pemula — Dicoding](https://williamfelix.my.id/img/certificate-pdf/3.pdf)
+- [Belajar Membuat Aplikasi Front-End untuk Pemula — Dicoding](https://williamfelix.my.id/img/certificate-pdf/4.pdf)
+- [Belajar Dasar Git dengan GitHub — Dicoding](https://williamfelix.my.id/img/certificate-pdf/5.pdf)
+- [Laravel — Candradimuka Jabar Coding Camp](https://williamfelix.my.id/img/certificate-pdf/6.pdf)
